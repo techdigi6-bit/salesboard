@@ -7,6 +7,7 @@ import {
   INITIAL_WEEKLY_TREND,
   RIZKY_AVATAR_URL,
   BAGUS_AVATAR_URL,
+  MAYA_AVATAR_URL,
 } from '../data/mockData';
 import {
   ActiveTab,
@@ -88,6 +89,7 @@ export const SalesProvider: React.FC<{ children: React.ReactNode }> = ({ childre
         if (parsed.salesReps) {
           parsed.salesReps = parsed.salesReps.map((r: { id: string; name: string; avatar: string }) => {
             if (r.name === 'Rizky Alamsyah') return { ...r, avatar: RIZKY_AVATAR_URL };
+            if (r.name === 'Maya Indah') return { ...r, avatar: MAYA_AVATAR_URL };
             if (r.name === 'Bagus Wicaksono') return { ...r, avatar: BAGUS_AVATAR_URL };
             return r;
           });

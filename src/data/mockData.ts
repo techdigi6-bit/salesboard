@@ -6,11 +6,19 @@ import {
   WeeklyTrendPoint,
 } from '../types';
 
-export const ADMIN_AVATAR_URL = '/src/assets/images/admin_avatar_1791342938980.jpg';
-export const SARAH_AVATAR_URL = '/src/assets/images/customer_avatar_sarah_1791342949444.jpg';
-export const PRODUCT_IMAGE_URL = '/src/assets/images/product_showcase_gadget_1791342959968.jpg';
-export const RIZKY_AVATAR_URL = '/src/assets/images/avatar_male_rizky_1791345544667.jpg';
-export const BAGUS_AVATAR_URL = '/src/assets/images/avatar_male_bagus_1791345558594.jpg';
+import adminAvatar from '../assets/images/admin_avatar_1791342938980.jpg';
+import sarahAvatar from '../assets/images/customer_avatar_sarah_1791342949444.jpg';
+import productGadgetImage from '../assets/images/product_showcase_gadget_1791342959968.jpg';
+import rizkyAvatar from '../assets/images/avatar_male_rizky_1791345544667.jpg';
+import bagusAvatar from '../assets/images/avatar_male_bagus_1791345558594.jpg';
+import mayaAvatar from '../assets/images/avatar_female_maya_1791348104456.jpg';
+
+export const ADMIN_AVATAR_URL = adminAvatar;
+export const SARAH_AVATAR_URL = sarahAvatar;
+export const PRODUCT_IMAGE_URL = productGadgetImage;
+export const RIZKY_AVATAR_URL = rizkyAvatar;
+export const BAGUS_AVATAR_URL = bagusAvatar;
+export const MAYA_AVATAR_URL = mayaAvatar;
 
 export const INITIAL_CUSTOMERS: Customer[] = [
   {
@@ -757,7 +765,7 @@ export const INITIAL_MONTHLY_TARGET: MonthlyTargetData = {
       achieved: 79500000,
       percentage: 79.5,
       dealsCount: 36,
-      avatar: SARAH_AVATAR_URL,
+      avatar: MAYA_AVATAR_URL,
     },
     {
       id: 'REP-03',
