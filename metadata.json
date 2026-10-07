@@ -1,0 +1,6 @@
+{
+  "name": "NusantaraSales - Dashboard Penjualan",
+  "description": "Dashboard pemantauan penjualan interaktif dengan visualisasi tren harian, mingguan, target bulanan, order terbaru, dan detail pelanggan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
